@@ -1,4 +1,4 @@
-Student Management System
+#Student Management System
 
 Bu proje, Java OOP konularını öğrenmek amacıyla hazırlanmış basit bir öğrenci yönetim uygulamasıdır.
 
