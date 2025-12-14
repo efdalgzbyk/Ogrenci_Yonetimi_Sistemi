@@ -4,35 +4,37 @@ Bu proje, Java OOP konularını öğrenmek amacıyla hazırlanmış basit bir ö
 
 Kullanılan Konular
 
-Class ve Object
+--Class ve Object
 
-Encapsulation
+--Encapsulation
 
-Inheritance
+--Inheritance
 
-Abstract Class
+--Abstract Class
 
-Interface
+--Interface
 
-ArrayList
+--ArrayList
 
-Proje Dosyaları
+## Dosyaları
 
-Person.java → Temel kişi sınıfı
+--Person.java → Temel kişi sınıfı
 
-Student.java → Öğrenci sınıfı
+--Student.java → Öğrenci sınıfı
 
-NotHesaplama.java → Geçme / kalma hesaplama
+--NotHesaplama.java → Geçme / kalma hesaplama
 
-Main.java → Programın çalıştığı ana sınıf
+--Main.java → Programın çalıştığı ana sınıf
 
-Programın Çalışması
+## Programın Çalışması
 
-Öğrenciler ArrayList içine eklenir
+--Öğrenciler ArrayList içine eklenir
 
-Her öğrencinin bilgileri ekrana yazdırılır
+--Her öğrencinin bilgileri ekrana yazdırılır
 
-Notuna göre Geçti / Kaldı durumu gösterilir
+--Notuna göre Geçti / Kaldı durumu gösterilir
+
+bash
 
 Çalıştırma
 javac Main.java
