@@ -1,120 +1,39 @@
-🎓 Student Management System (Java OOP)
+Student Management System
 
-Bu proje, Java Nesne Yönelimli Programlama (OOP) konularını pekiştirmek amacıyla geliştirilmiş basit bir Öğrenci Yönetim Sistemi örneğidir.
+Bu proje, Java OOP konularını öğrenmek amacıyla hazırlanmış basit bir öğrenci yönetim uygulamasıdır.
 
-📌 Proje Amacı
+Kullanılan Konular
 
-Bu proje ile aşağıdaki Java konuları uygulanmıştır:
+Class ve Object
 
-Class & Object
+Encapsulation
 
-Encapsulation (private fields, getter & setter)
+Inheritance
 
-Inheritance (extends)
+Abstract Class
 
-Abstraction (abstract class)
+Interface
 
-Interface (implements)
+ArrayList
 
-Polymorphism (method overriding)
+Proje Dosyaları
 
-Collections (ArrayList)
+Person.java → Temel kişi sınıfı
 
-🧱 Proje Yapısı
-📁 src
- ┣ 📄 Main.java
- ┣ 📄 Person.java
- ┣ 📄 Student.java
- ┗ 📄 NotHesaplama.java
+Student.java → Öğrenci sınıfı
 
-🧩 Sınıflar ve Görevleri
-🔹 Person (Abstract Class)
+NotHesaplama.java → Geçme / kalma hesaplama
 
-Ortak özellikleri tutar (id, name)
+Main.java → Programın çalıştığı ana sınıf
 
-Constructor, getter & setter içerir
+Programın Çalışması
 
-bilgiYazdir() metodu ile temel bilgileri yazdırır
+Öğrenciler ArrayList içine eklenir
 
-🔹 Student (Subclass)
+Her öğrencinin bilgileri ekrana yazdırılır
 
-Person sınıfından türetilmiştir
+Notuna göre Geçti / Kaldı durumu gösterilir
 
-Ek alanlar: department, grade
-
-bilgiYazdir() metodu override edilmiştir
-
-NotHesaplama interface’ini uygular
-
-🔹 NotHesaplama (Interface)
-
-Öğrencinin geçme / kalma durumunu hesaplayan metodu tanımlar
-
-🔹 Main
-
-ArrayList<Student> kullanır
-
-Öğrenci nesneleri oluşturur
-
-Tüm öğrencilerin bilgilerini ekrana yazdırır
-
-⚙️ Çalışma Mantığı
-
-Öğrenciler ArrayList içerisine eklenir
-
-Her öğrenci için:
-
-Kimlik bilgileri
-
-Bölüm
-
-Not
-
-Geçti / Kaldı durumu
-
-Bilgiler polymorphism sayesinde tek bir method çağrısıyla yazdırılır
-
-🖥️ Örnek Çıktı
-ID: 1
-İsim: Ali
-Bölüm: Bilgisayar
-Not: 75
-Durum: Geçti
---------------------
-ID: 2
-İsim: Ayşe
-Bölüm: Yazılım
-Not: 45
-Durum: Kaldı
-
-▶️ Nasıl Çalıştırılır?
-
-Projeyi klonlayın:
-
-git clone https://github.com/kullanici-adi/student-management-system.git
-
-
-Java ile derleyip çalıştırın:
-
+Çalıştırma
 javac Main.java
 java Main
-
-🚀 Geliştirme Fikirleri
-
-Scanner ile kullanıcıdan öğrenci alma
-
-En yüksek notu alan öğrenciyi bulma
-
-Dosyaya öğrenci kaydetme
-
-GUI (JavaFX / Swing) ekleme
-
-🧠 Öğrenilenler
-
-Bu proje, Java’da nesne yönelimli düşünme, bellek yönetimi (heap & reference) ve interface kullanımı konularını anlamaya yardımcı olur.
-
-✍️ Yazar
-
-Efdal Gözübüyük
-Software Engineering Student
-Java | OOP | Full-Stack Adayı
