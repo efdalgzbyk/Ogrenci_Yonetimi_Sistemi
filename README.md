@@ -1,5 +1,5 @@
 # Ogrenci_Yonetimi_Sistemi
-
+##Amaç
 class, constructor
 
 encapsulation (private + getter/setter)
